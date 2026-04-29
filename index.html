@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GyaanSetu - From Confusion to Clarity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-left">
+    <h1>🚀 GyaanSetu</h1>
+  </div>
+
+  <div class="nav-links">
+   <a href="index.html">🏠 Home</a>
+   <a href="path.html">🧭 Path</a>
+  <a href="dashboard.html">📊 Dashboard</a>
+  <a href="resources.html">📚 Resources</a>
+  <a href="about.html">ℹ️ About</a>
+  </div>
+
+  <div class="profile-wrapper">
+  <div class="profile-icon" id="profileIcon">
+    👤
+  </div>
+
+  <div class="profile-dropdown" id="profileDropdown">
+    <p id="userName">Guest User</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+</div>
+</nav>
+
+
+<section class="hero">
+  <h2>From Confusion to Clarity</h2>
+  <p>
+    GyaanSetu converts scattered free resources into
+    structured, beginner-friendly learning paths.
+  </p>
+  <a href="path.html" class="btn">🚀 Start Learning Free</a>
+  <div style="margin-top:20px;">
+    
+  <input 
+    type="text" 
+    id="searchInput"
+
+    placeholder="What do you want to learn?" 
+    style="padding:12px;width:260px;border-radius:10px;border:none;">
+    
+  <button onclick="searchTopic()" class="btn small">
+    Search
+  </button>
+</div>
+</section>
+
+
+<section class="container">
+  <div class="card">
+    <h3>🎯 Smart Guided Paths</h3>
+    <p>No more confusion — follow step-by-step roadmap.</p>
+  </div>
+
+  <div class="card">
+    <h3>📊 Track Your Progress</h3>
+    <p>Your journey is saved automatically with streak system.</p>
+  </div>
+</section>
+
+
+
+<section class="features">
+
+  <div class="feature-card">
+    <h3>🎯 Goal Based</h3>
+    <p>Choose your goal and get a structured roadmap.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>📊 Progress Tracking</h3>
+    <p>Your learning progress is saved automatically.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>🧠 Beginner Friendly</h3>
+    <p>Designed specially for confused beginners.</p>
+  </div>
+
+</section>
+
+
+<footer>
+  Built with ❤️ by Team StackVolt⚡ <br>
+  © 2026 GyaanSetu. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+

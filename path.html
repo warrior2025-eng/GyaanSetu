@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning Path - GyaanSetu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-left">
+    <h1>🚀 GyaanSetu</h1>
+  </div>
+
+  <div class="nav-links">
+<a href="index.html">🏠 Home</a>
+<a href="path.html">🧭 Path</a>
+<a href="dashboard.html">📊 Dashboard</a>
+<a href="resources.html">📚 Resources</a>
+<a href="about.html">ℹ️ About</a>
+  </div>
+
+ <div class="profile-wrapper">
+  <div class="profile-icon" id="profileIcon">
+    👤
+  </div>
+
+  <div class="profile-dropdown" id="profileDropdown">
+    <p id="userName">Guest User</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+</div>
+</nav>
+
+
+<section class="container">
+  <h2>Select Goal</h2>
+  <p style="opacity:0.7;">
+  Follow step-by-step roadmap and track your progress 🚀
+</p>
+  <select id="goalSelect">
+    <option value="">Choose Goal</option>
+    <option value="web">Web Developer</option>
+    <option value="freelance">Freelancer</option>
+  </select>
+
+  <div class="action-row">
+  <button id="continueBtn" class="btn small">▶ Continue</button>
+  <button id="resetBtn" class="btn small danger">♻ Reset Progress</button>
+</div>
+
+
+  <div class="progress-box">
+    Progress: <span id="progressText">0%</span>
+    <div class="progress-bar">
+      <div id="progressFill"></div>
+    </div>
+  </div>
+
+  <div id="steps"></div>
+</section>
+
+<footer>
+  Built with ❤️ by Team StackVolt⚡ <br>
+  © 2026 GyaanSetu. All rights reserved.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resources - GyaanSetu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-left">
+    <h1>🚀 GyaanSetu</h1>
+  </div>
+
+  <div class="nav-links">
+   <a href="index.html">🏠 Home</a>
+<a href="path.html">🧭 Path</a>
+<a href="dashboard.html">📊 Dashboard</a>
+<a href="resources.html">📚 Resources</a>
+<a href="about.html">ℹ️ About</a>
+  </div>
+
+<div class="profile-wrapper">
+  <div class="profile-icon" id="profileIcon">
+    👤
+  </div>
+
+  <div class="profile-dropdown" id="profileDropdown">
+    <p id="userName">Guest User</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+</div>
+</nav>
+
+
+<section class="container">
+
+<div id="aiBox" class="ai-box">
+
+ <h3 style="
+  color:#ffffff;
+  font-weight:800;
+  font-size:1.3rem;
+  text-shadow:0 0 10px rgba(99,102,241,0.8);
+">
+  🤖 GyaanSetu AI Assistant
+</h3>
+
+  <input 
+    type="text" 
+    id="aiInput" 
+    placeholder="Ask anything like: how to learn web dev?"
+    class="ai-input"
+  >
+
+  <button id="aiAskBtn" class="btn small">Ask 🚀</button>
+
+  <p id="aiText" class="ai-text">
+    Ask a question to get guidance...
+  </p>
+
+</div>
+
+<div id="noResult" class="no-result">
+  <h3>😕 No results found</h3>
+  <p>Try searching: HTML, CSS, JavaScript</p>
+</div>
+
+
+<div class="resource" data-id="html">
+  <h3>HTML Crash Course</h3>
+  <p>Learn the basics of web structure with this beginner-friendly HTML course.</p>
+  <a href="https://youtu.be/kUMe1FH4CHE" target="_blank">Watch Now</a>
+  <button class="bookmarkBtn">🔖 Save</button>
+</div>
+
+<div class="resource" data-id="css">
+  <h3>CSS Mastery</h3>
+  <p>Understand styling, layouts, and responsive design using CSS.</p>
+  <a href="https://youtu.be/OXGznpKZ_sA" target="_blank">Watch Now</a>
+  <button class="bookmarkBtn">🔖 Save</button>
+</div>
+
+<div class="resource" data-id="js">
+  <h3>JavaScript Full Course</h3>
+  <p>Complete JavaScript guide to build dynamic and interactive websites.</p>
+  <a href="https://youtu.be/PkZNo7MFNFg" target="_blank">Watch Now</a>
+  <button class="bookmarkBtn">🔖 Save</button>
+</div>
+
+<div class="resource" data-id="react">
+  <h3>React Beginner Guide</h3>
+  <p>Learn how to build modern web applications using React.</p>
+  <a href="https://youtu.be/bMknfKXIFA8" target="_blank">Watch Now</a>
+  <button class="bookmarkBtn">🔖 Save</button>
+</div>
+
+<div class="resource" data-id="node">
+  <h3>Node.js Backend Basics</h3>
+  <p>Understand backend development and server-side logic using Node.js.</p>
+  <a href="https://youtu.be/Oe421EPjeBE" target="_blank">Watch Now</a>
+  <button class="bookmarkBtn">🔖 Save</button>
+</div>
+
+<div class="resource" data-id="git">
+  <h3>Git & GitHub Crash Course</h3>
+  <p>Learn version control and collaboration using Git and GitHub.</p>
+  <a href="https://youtu.be/apGV9Kg7ics" target="_blank">Watch Now</a>
+  <button class="bookmarkBtn">🔖 Save</button>
+</div>
+
+<div id="ytResults"></div>
+
+</section>
+
+<footer>
+  Built with ❤️ by Team StackVolt⚡ <br>
+  © 2026 GyaanSetu. All rights reserved.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
