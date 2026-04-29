@@ -17,10 +17,14 @@ HTML • CSS • JavaScript • GitHub Pages
 https://warrior2025-eng.github.io/GyaanSetu/
 
 👨‍💻 Team StackVolt
--Pranjal Srivastav – Leader & Tech Lead  
+-Pranjal Srivastav – Leader & Tech Lead 
+
 -Anshika – Design & Research  
+
 -Himanshu – Development  & Implementation
+
 -Sirin – User Experience & Content Organization
+
 -Praveen – Testing & Optimization
 
 
