@@ -22,8 +22,11 @@ https://warrior2025-eng.github.io/GyaanSetu/
 
 
 👨‍💻 Team StackVolt
-- Pranjal Srivastav — Leader & Tech Lead  
-- Anshika — Team Member  
+Pranjal Srivastav – Leader & Tech Lead  
+Anshika – Design & Research  
+Himanshu – Development  & Implementation
+Sirin – Sirin – User Experience & Content Organization
+Praveen – Testing & Optimization
 
 
 ⭐ If you like this project, give it a star!
