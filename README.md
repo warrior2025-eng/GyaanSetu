@@ -26,7 +26,7 @@ https://warrior2025-eng.github.io/GyaanSetu/
 -Pranjal Srivastav – Leader & Tech Lead  
 -Anshika – Design & Research  
 -Himanshu – Development  & Implementation
--Sirin – Sirin – User Experience & Content Organization
+-Sirin – User Experience & Content Organization
 -Praveen – Testing & Optimization
 
 
