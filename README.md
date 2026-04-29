@@ -1,9 +1,7 @@
 🚀 GyaanSetu
 
 > From Confusion to Clarity — A smarter way to learn.
-
 GyaanSetu is a platform that converts scattered free resources into structured, step-by-step learning paths for beginners.
-
 
 ✨ Features
 - 🔍 Smart Search  
@@ -12,17 +10,13 @@ GyaanSetu is a platform that converts scattered free resources into structured, 
 - ⭐ Bookmark System  
 - 🧭 Guided Learning Paths  
 
-
-## 🛠 Tech Stack
+🛠 Tech Stack
 HTML • CSS • JavaScript • GitHub Pages
-
 
 🚀 Live Website
 https://warrior2025-eng.github.io/GyaanSetu/
 
-
 👨‍💻 Team StackVolt
-
 -Pranjal Srivastav – Leader & Tech Lead  
 -Anshika – Design & Research  
 -Himanshu – Development  & Implementation
