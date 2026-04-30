@@ -17,6 +17,7 @@ HTML • CSS • JavaScript • GitHub Pages
 https://warrior2025-eng.github.io/GyaanSetu/
 
 👨‍💻 Team StackVolt
+
 -Pranjal Srivastav – Leader & Tech Lead 
 
 -Anshika – Design & Research  
