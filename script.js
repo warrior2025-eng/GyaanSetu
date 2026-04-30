@@ -181,7 +181,7 @@ function goToResources(){
   window.location.href = "resources.html";
 }
 
-/* ===== PATH SYSTEM FIX ===== */
+/* ===== PATH SYSTEM ===== */
 
 const paths = {
   web: [
@@ -222,7 +222,7 @@ function renderPath(goal){
   });
 }
 
-/* ===== BUTTON FIX ===== */
+/* ===== BUTTON ===== */
 document.getElementById("continueBtn")?.addEventListener("click", () => {
   const goal = document.getElementById("goalSelect").value;
 
